@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(bunx:*)",
+      "Bash(npx vite:*)",
+      "Bash(bun install:*)",
+      "Bash(bun run:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp:*)",
+      "Bash(export DATABRICKS_HOST)",
+      "Bash(export DATABRICKS_TOKEN)",
+      "Bash(databricks warehouses update-permissions:*)",
+      "Bash(databricks service-principals:*)",
+      "Bash(databricks warehouses get-permissions:*)",
+      "Bash(uv:*)",
+      "Bash(db:*)",
+      "Bash(databricks:*)",
+      "mcp__serena__find_file",
+      "mcp__dbx-custom-mcp-app__*",
+      "Bash(sw_vers)",
+      "mcp__dbx-custom-mcp-app__list_clusters",
+      "Bash(ping:*)",
+      "Bash(curl:*)",
+      "mcp__terraform__get_latest_provider_version",
+      "mcp__terraform__search_providers",
+      "mcp__terraform__get_provider_details"
+    ],
+    "deny": [
+      "mcp__dbx-custom-mcp-l__*"
+    ],
+    "ask": []
+  }
+}
