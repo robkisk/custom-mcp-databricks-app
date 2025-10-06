@@ -24,10 +24,12 @@
       "Bash(curl:*)",
       "mcp__terraform__get_latest_provider_version",
       "mcp__terraform__search_providers",
-      "mcp__terraform__get_provider_details"
+      "mcp__terraform__get_provider_details",
+      "mcp__dbx-mcp-app__list_clusters"
     ],
     "deny": [
-      "mcp__dbx-custom-mcp-l__*"
+      "mcp__dbx-custom-mcp-l__*",
+      "mcp__dbx-mcp-l__*"
     ],
     "ask": []
   }
