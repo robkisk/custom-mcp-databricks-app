@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun --version:*)",
+      "Bash(test:*)",
+      "Read(//Users/robby.kiskanyan/dev/mcp/projects/demos/custom-mcp-databricks-app/**)",
+      "Read(//tmp/**)",
+      "Bash(pkill:*)",
+      "Bash(kill:*)",
+      "Bash(curl:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_take_screenshot"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

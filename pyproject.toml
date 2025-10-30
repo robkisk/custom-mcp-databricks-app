@@ -126,4 +126,5 @@ convention = "google"
 [dependency-groups]
 dev = [
     "tomli>=2.2.1",
+    "watchdog>=6.0.0",
 ]
